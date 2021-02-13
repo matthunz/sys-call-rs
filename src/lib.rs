@@ -1,4 +1,4 @@
-#![feature(asm)]
+#![feature(llvm_asm)]
 
 #[cfg(all(target_os = "linux", target_arch = "x86_64"))]
 #[path = "platform/linux-x86_64.rs"]
